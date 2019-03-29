@@ -8,9 +8,9 @@
 
     <v-content>
       <v-container>
-        <v-layout>
-          <v-flex>
-            <DessertList/>
+        <v-layout justify-center>
+          <v-flex xs12 md6 lg4>
+            <ItemList/>
           </v-flex>
         </v-layout>
       </v-container>
@@ -19,12 +19,12 @@
 </template>
 
 <script>
-import DessertList from "@/components/DessertList";
+import ItemList from "@/components/ItemList";
 
 export default {
   name: "App",
   components: {
-    DessertList
+    ItemList
   }
 };
 </script>
